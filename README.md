@@ -68,14 +68,11 @@ npm install
 
 ### Configuration
 
-Create a `.env` file:
+Create a `.env` file using the example:
 
-```env
-GLACIER_HILLS_BASE_URL=your_test_url
-GLACIER_HILLS_ACCESS_CODE=your_code
-LOGIN_ID=your_login
-PASSWORD=your_password
-```
+````bash
+cp .env.example .env
+
 
 ### Running Tests
 
@@ -84,7 +81,7 @@ npm run test         # headless
 npm run test:headed  # visible browser
 npm run test:ui      # Playwright UI mode
 npm run report       # view results
-```
+````
 
 ---
 
